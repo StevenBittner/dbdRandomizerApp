@@ -6,13 +6,47 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <ImageButton
+        android:id="@+id/SurvivorButton"
+        android:layout_width="229dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginBottom="267dp"
+        android:contentDescription="@string/choosesurvivorbutton"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/KillerButton"
+        android:layout_width="236dp"
+        android:layout_height="187dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="267dp"
+        android:contentDescription="@string/choosekillerbutton"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="286dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="497dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="497dp"
+        android:text="@string/dbd_randomizer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">DbdRand</string>
+    <string name="choosekillerbutton">ChooseKillerButton</string>
+    <string name="choosesurvivorbutton">ChooseSurvivorButton</string>
+    <string name="dbd_randomizer">DBD Randomizer</string>
+    <string name="survivor">Survivor</string>
+    <string name="survivors">Survivors</string>
+    <string name="perks">Perks</string>
+    <string name="items">Items</string>
+    <string name="randomize">Randomize</string>
+    <string name="string_survivors" />
+    <string name="string_string_survivors" />
+    <string name="string_string_string_survivors" />
 </resources>
